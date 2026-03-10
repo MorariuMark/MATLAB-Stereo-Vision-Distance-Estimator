@@ -25,6 +25,14 @@ Instead of relying on idealized theoretical focal length formulas—which often 
 4.  **Target Matching (Right):** Dynamic template cropping $\rightarrow$ Epipolar-constrained search band generation $\rightarrow$ Normalized Cross-Correlation $\rightarrow$ Peak sub-pixel coordinate extraction.
 5.  **Depth Calculation:** Calculate disparity ($d = |x_{left} - x_{right}|$) and map $d$ to physical depth ($Z$) using pre-calibrated `pchip` interpolation.
 
+   
+#Demo:
+<img width="1095" height="904" alt="Image" src="https://github.com/user-attachments/assets/d2b9b687-39b7-4b88-94db-99eb65a74d06" />
+![Image](https://github.com/user-attachments/assets/5991159c-0112-4834-a52b-e3f4f8653862)
+![Image](https://github.com/user-attachments/assets/f9b2b71a-3c98-4699-8d09-6205ed35a021)
+![Image](https://github.com/user-attachments/assets/ee667dd0-9f18-42c1-bd08-560605fa6a80)
+
+
 ## Setup and Usage
 1. Mount two webcams parallel to each other on a fixed baseline.
 2. Run `projectSWEA.m` in the MATLAB Command Window.
